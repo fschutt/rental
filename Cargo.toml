@@ -16,6 +16,7 @@ members = ["rental-impl"]
 [features]
 default = ["std"]
 std = ["stable_deref_trait/std"]
+alloc = ["stable_deref_trait/alloc"]
 
 [dependencies]
 rental-impl = { version = "=0.5.5", path = "rental-impl" }
